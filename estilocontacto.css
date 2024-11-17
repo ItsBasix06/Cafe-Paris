@@ -1,0 +1,93 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(Img/taza-cafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+h1{
+    margin-bottom: 5px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: "Parisienne", cursive;
+}
+#eslogan{
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    width: 40%;
+    margin: auto;
+    font-family: "Caveat", cursive;
+}
+h2{
+    color: #FFE4C4;
+    font-family: "Pacifico", cursive;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+}
+a:Active{
+    color: DarkGoldenRod;
+}
+ul li{
+    color: white;
+    font-family: "Pacifico", cursive;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.texto-normal{
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+    font-family: "Satisfy", cursive;
+}
+
+
+form {
+    border: 2px solid DarkGoldenrod;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: black;
+    color: cornsilk;
+}
+
+label {
+    font-family: 'Caveat', cursive;
+    color: cornsilk;
+    font-size: 1.5em;
+}
+
+form p {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: DarkGoldenrod;
+    color: black;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: goldenrod;
+}

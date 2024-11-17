@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilocontacto.css">
+</head>
+<body>
+    <h1>Café Paris</h1>
+    <p id="eslogan">Un momento de relax</p>
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="carta.html">Nuestra Carta</a></li>
+        <li><a href="#">Contácte con nosotros</a></li>
+    </ul>
+  
+    <h2>Contacte con nosostros</h2>
+    <form action=“procesacontacto.php” method="get">
+<p><label for="nombre">Nombre y Apellidos: <input id="nombre" name="nombre" placeholder="Escriba su nombre y apellidos"  type="text"></label></p>
+<p><label for="fecha">Fecha de nacimiento: <input id="fecha" type="date"></label></p>
+<p><label for="">Suele consumir:
+    <input type="radio" name="bebidas" checked id="cafe"><label for="">Café</label>
+    <input type="radio" name="bebidas"  id="te"><label for="">Té</label>
+    <input type="radio" name="bebidas"  id="Ambos"><label for="">Ambos</label>
+</p>
+<p><label for="numero">Numero de cafes al dia:</label>
+<select name="numero" id="numero">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select> 
+<p><label for="numero">Seleccione su cafeteria: </label>
+    <select name="numero" id="numero">
+        <option selected value="madrid">Madrid</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="3">3</option>
+    </select> 
+    <p> <input id="cheque" name="cheque" checked type="checkbox"><label for="cheque">Deseo recibir informacion sobre novedades y ofertas</label></p>
+</p>
+<p><input type="submit" value="Enviar">
+<input type="reset" value="Reiniciar"></p>
+    </form>
+</body>
+</html>
